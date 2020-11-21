@@ -11,7 +11,7 @@
     <!--将服务注册到指定的注册中心-->
     <dubbo:registry address="multicast://224.5.6.7:1234"></dubbo:registry>
 
-    <!--指定服务的协议 和 使用端口号-->
+    <!--指定服务的协议 和 使用端口号   注意此处服务端使用客户端无需使用 -->
     <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
 
     <!--注册服务到注册中心-->
