@@ -7,13 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo_001_c" />
+        <module name="dubbo_001_c (1)" />
         <module name="dubbo_001_p" />
+        <module name="dubbo_001_p (1)" />
+        <module name="dubbo_cluster_001_c" />
+        <module name="dubbo_cluster_001_p" />
+        <module name="dubbo_cluster_002_p" />
+        <module name="dubbo_cluster_003_p" />
+        <module name="dubbo_group_001_c" />
+        <module name="dubbo_group_001_p" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo" target="1.5" />
       <module name="dubbo_001_c" target="1.5" />
+      <module name="dubbo_001_c (1)" target="1.5" />
       <module name="dubbo_001_p" target="1.5" />
+      <module name="dubbo_001_p (1)" target="1.5" />
+      <module name="dubbo_cluster_001_c" target="1.5" />
+      <module name="dubbo_cluster_001_p" target="1.5" />
+      <module name="dubbo_cluster_002_p" target="1.5" />
+      <module name="dubbo_cluster_003_p" target="1.5" />
+      <module name="dubbo_group_001_c" target="1.5" />
+      <module name="dubbo_group_001_p" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

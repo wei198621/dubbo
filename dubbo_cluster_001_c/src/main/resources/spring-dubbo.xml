@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--通过dubbo消费服务-->
+    <dubbo:application name="dubbo_cluster_001_c"/>
+
+    <!--指定的注册中心-->
+    <dubbo:registry address="multicast://224.5.6.7:1234"></dubbo:registry>
+
+    <!--定义负载均衡策略  名称为全称的小写  如   Random LoadBalance  为 random  -->
+    <dubbo:consumer timeout="5000" loadbalance="consistenthash " cluster="failsafe" retries="3"  ></dubbo:consumer>
+
+    <!--调用服务-->
+    <dubbo:reference id="userService" interface="com.tiza.leo.service.UserService" timeout="4000"  >     <!--定义超时时间方式二-->
+        <dubbo:method name="findName" timeout="3000"></dubbo:method>                                   <!--定义超时时间方式三-->
+        <dubbo:parameter key="hash.nodes" value="320" />
+        <dubbo:parameter key="hash.arguments" value="0,1"/>
+    </dubbo:reference>
+    
+</beans>

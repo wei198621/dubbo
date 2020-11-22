@@ -14,8 +14,12 @@
     <!--指定服务的协议 和 使用端口号   注意此处服务端使用客户端无需使用 -->
     <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
 
+
+    <dubbo:provider timeout="5000"></dubbo:provider>                                              <!--定义超时时间方式一-->
     <!--注册服务到注册中心-->
-    <dubbo:service interface="com.tiza.leo.service.UserService" ref="userService"></dubbo:service>
+    <dubbo:service interface="com.tiza.leo.service.UserService" ref="userService" timeout="4000"> <!--定义超时时间方二-->
+        <dubbo:method name="findName" timeout="3000"></dubbo:method>                              <!--定义超时时间方式三-->
+    </dubbo:service>
 
     <!--服务提供者-->
     <bean id="userService" class="com.tiza.leo.service.UserServiceImpl"></bean>

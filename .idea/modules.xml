@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo.iml" filepath="$PROJECT_DIR$/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo_001_c/dubbo_001_c.iml" filepath="$PROJECT_DIR$/dubbo_001_c/dubbo_001_c.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo_001_p/dubbo_001_p.iml" filepath="$PROJECT_DIR$/dubbo_001_p/dubbo_001_p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_cluster_001_c/dubbo_cluster_001_c.iml" filepath="$PROJECT_DIR$/dubbo_cluster_001_c/dubbo_cluster_001_c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_cluster_001_p/dubbo_cluster_001_p.iml" filepath="$PROJECT_DIR$/dubbo_cluster_001_p/dubbo_cluster_001_p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_cluster_002_p/dubbo_cluster_002_p.iml" filepath="$PROJECT_DIR$/dubbo_cluster_002_p/dubbo_cluster_002_p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_cluster_003_p/dubbo_cluster_003_p.iml" filepath="$PROJECT_DIR$/dubbo_cluster_003_p/dubbo_cluster_003_p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_group_001_c/dubbo_group_001_c.iml" filepath="$PROJECT_DIR$/dubbo_group_001_c/dubbo_group_001_c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo_group_001_p/dubbo_group_001_p.iml" filepath="$PROJECT_DIR$/dubbo_group_001_p/dubbo_group_001_p.iml" />
     </modules>
   </component>
 </project>

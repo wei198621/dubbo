@@ -4,6 +4,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_cluster_001_p/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_cluster_002_p/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_cluster_003_p/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_cluster_001_c/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_group_001_c/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_group_001_p/pom.xml" />
       </list>
     </option>
   </component>
